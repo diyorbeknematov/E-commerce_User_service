@@ -1,0 +1,187 @@
+definitions:
+  models.Errors:
+    properties:
+      error:
+        type: string
+    type: object
+  models.LoginRequest:
+    properties:
+      password:
+        type: string
+      username:
+        type: string
+    type: object
+  models.LoginResponse:
+    properties:
+      access_token:
+        type: string
+      refresh_token:
+        type: string
+    type: object
+  models.Register:
+    properties:
+      email:
+        type: string
+      full_name:
+        type: string
+      password:
+        type: string
+      username:
+        type: string
+    type: object
+  models.Response:
+    properties:
+      message:
+        type: string
+      success:
+        type: boolean
+    type: object
+host: localhost:8081
+info:
+  contact: {}
+  description: service for authentication user
+  title: Authentication service
+  version: "1.0"
+paths:
+  /api/login:
+    post:
+      consumes:
+      - application/json
+      description: Login to exist user acc
+      parameters:
+      - description: user login
+        in: body
+        name: Login
+        required: true
+        schema:
+          $ref: '#/definitions/models.LoginRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.LoginResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/models.Errors'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/models.Errors'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/models.Errors'
+      summary: Login user
+      tags:
+      - Auth
+  /api/logout:
+    post:
+      consumes:
+      - application/json
+      description: Logout user
+      parameters:
+      - description: Log out user
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            type: string
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/models.Errors'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/models.Errors'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/models.Errors'
+      summary: Logout user
+      tags:
+      - Auth
+  /api/refresh:
+    post:
+      consumes:
+      - application/json
+      description: Get access token user
+      parameters:
+      - description: Acces Token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            type: string
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/models.Errors'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/models.Errors'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/models.Errors'
+      security:
+      - ApiKeyAuth: []
+      summary: Refresh user
+      tags:
+      - Auth
+  /api/register:
+    post:
+      consumes:
+      - application/json
+      description: create user
+      parameters:
+      - description: user register
+        in: body
+        name: Register
+        required: true
+        schema:
+          $ref: '#/definitions/models.Register'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/models.Response'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/models.Errors'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/models.Errors'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/models.Errors'
+      summary: Register user
+      tags:
+      - Auth
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

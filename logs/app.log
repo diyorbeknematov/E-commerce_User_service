@@ -1,0 +1,163 @@
+{"time":"2024-07-28T21:06:39.950324388+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-28T21:06:40.022373613+05:00","level":"ERROR","msg":"Error connecting to database","error":"pq: database \"5432\" does not exist"}
+{"time":"2024-07-28T21:06:50.900290681+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-28T21:06:50.969602459+05:00","level":"ERROR","msg":"Error connecting to database","error":"pq: database \"5432\" does not exist"}
+{"time":"2024-07-28T21:10:27.184779989+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-28T21:11:06.126121191+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-28T21:11:06.191494223+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-28T21:14:27.137719028+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-28T21:14:27.209322697+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-29T18:55:57.407967918+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-29T18:55:57.642188823+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-29T18:56:54.483240923+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/register"}
+{"time":"2024-07-29T18:56:54.729729243+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-29T18:57:26.634224884+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-29T18:57:26.808306865+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-29T19:09:34.812037336+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-29T19:09:35.010629606+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-29T19:12:43.205724798+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-29T19:12:43.409948541+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T10:38:04.303227926+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-30T10:38:04.407533911+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-30T10:39:05.403242823+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T10:42:21.428949254+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-30T10:42:21.459739808+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-30T10:42:30.306237702+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T10:42:35.970256547+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T10:43:15.050707984+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-30T10:43:15.080634414+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-30T10:43:19.344744681+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T10:44:39.797172275+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-30T10:44:39.830499699+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-30T10:44:43.187821103+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T10:46:38.039685211+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-30T10:46:38.069607719+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-30T10:46:41.664865072+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T10:46:41.666943519+05:00","level":"ERROR","msg":"Error login user","error":"user not found"}
+{"time":"2024-07-30T10:46:41.667000447+05:00","level":"ERROR","msg":"Error in login user","error":"user not found"}
+{"time":"2024-07-30T10:46:41.667043919+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-30T10:46:51.301014699+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T10:46:51.362990885+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T10:49:03.216565594+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T10:49:03.277294026+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T10:51:09.655761875+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T10:51:09.71716342+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T10:58:37.255841409+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-30T10:58:37.331098136+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-30T10:59:56.276791773+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T10:59:56.44309056+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T11:01:47.719469242+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T11:01:47.885363862+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T12:05:32.629756777+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-30T12:05:32.703807367+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-30T12:16:04.519356937+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-30T12:16:04.54914783+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-30T12:17:06.704555515+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T12:17:06.776228826+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T12:21:39.463787895+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-30T12:21:39.491578678+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-30T12:38:06.995477423+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T12:38:07.052139367+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T12:38:11.738627001+05:00","level":"ERROR","msg":"Error creating user","error":"pq: syntax error at or near \"$5\""}
+{"time":"2024-07-30T12:39:39.276973783+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-30T12:39:39.306359065+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-30T12:40:45.616808896+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"\""}
+{"time":"2024-07-30T12:41:56.264999693+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"\""}
+{"time":"2024-07-30T12:42:56.170878289+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"\""}
+{"time":"2024-07-30T12:46:09.807907317+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"\""}
+{"time":"2024-07-30T12:54:20.70974646+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"\""}
+{"time":"2024-07-30T13:04:54.077093623+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T13:04:54.23663503+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T13:12:09.503633119+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T13:12:09.667096986+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T13:14:48.938914953+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T13:14:49.100670569+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T14:28:04.328209757+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T14:28:04.396347031+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T14:28:51.12894497+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T14:28:51.185240505+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T14:50:34.29922944+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T14:50:34.360104524+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T15:10:44.90155214+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T15:10:44.962001067+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T13:53:47.706514362+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-31T13:53:47.732145252+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-31T13:57:52.533784297+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/register"}
+{"time":"2024-07-31T13:57:52.706308262+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T13:58:23.179087932+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T13:58:23.19043685+05:00","level":"ERROR","msg":"Error login user","error":"user not found"}
+{"time":"2024-07-31T13:58:23.190526824+05:00","level":"ERROR","msg":"Error in login user","error":"user not found"}
+{"time":"2024-07-31T13:58:23.190603637+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-31T13:58:39.861304612+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T13:58:40.016123026+05:00","level":"ERROR","msg":"Error verifying password"}
+{"time":"2024-07-31T13:58:40.016236791+05:00","level":"INFO","msg":"Response sent","status":401}
+{"time":"2024-07-31T13:58:50.27496111+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T13:58:50.438350082+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T14:11:02.708608011+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T14:11:02.877433273+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T14:26:44.109763029+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T14:26:44.270096288+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T14:53:34.107848802+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T14:53:34.281592037+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T15:02:34.753877909+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T15:02:34.924109483+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T15:09:25.165718341+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"recommendations\""}
+{"time":"2024-07-31T15:11:36.784254973+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"recommendations\""}
+{"time":"2024-07-31T15:12:06.798383112+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"recommendations\""}
+{"time":"2024-07-31T15:14:13.790162756+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"recommendations\""}
+{"time":"2024-07-31T15:14:49.260637808+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"recommendations\""}
+{"time":"2024-07-31T15:16:59.54422976+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"recommendation\""}
+{"time":"2024-07-31T15:18:49.977130848+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"recommendation\""}
+{"time":"2024-07-31T15:23:20.511877215+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T15:23:20.694457113+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T15:23:25.873552715+05:00","level":"ERROR","msg":"Error getting user by ID","error":"pq: invalid input syntax for type uuid: \"recommendation\""}
+{"time":"2024-07-31T15:27:06.942381285+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T15:27:07.141631464+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T15:32:35.220710737+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-31T15:32:35.252919792+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-31T15:33:19.360587901+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T15:33:19.535402227+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T15:33:43.731919849+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T15:33:43.903370176+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T15:35:27.654204193+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T15:35:27.838692906+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T15:36:10.069530851+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-31T15:36:10.099811114+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-31T15:49:03.386691364+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T15:49:03.585687459+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T16:30:53.320638337+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-31T16:30:53.361857877+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-31T16:31:41.028250276+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T16:31:41.21785332+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T16:51:59.39715107+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T16:51:59.559193995+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T17:13:52.506567015+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T17:13:52.6757349+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T17:35:22.257004833+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T17:35:22.416266786+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T19:31:47.681141419+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T19:31:47.757913936+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T20:13:05.351456247+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T20:13:05.549803349+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T20:16:48.879698285+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T20:16:49.061220144+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T23:32:00.005467065+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-31T23:32:00.050405028+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-31T23:32:30.014719868+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T23:32:30.193870531+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-31T23:53:33.769979273+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-31T23:53:33.938997582+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-01T00:14:54.66973682+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-08-01T00:14:54.828065444+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-01T00:36:15.322789584+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-08-01T00:36:15.480411586+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-01T00:47:27.737150188+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-08-01T00:47:27.756924127+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-08-01T00:51:26.354042322+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-08-01T00:51:26.372358809+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-08-01T00:52:23.597625182+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-08-01T00:52:23.765323099+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-01T00:56:40.602685423+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-08-01T00:56:40.621213844+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-08-01T01:02:30.454739407+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-08-01T01:02:30.473137875+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
