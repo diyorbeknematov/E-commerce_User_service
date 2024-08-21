@@ -5,7 +5,7 @@ import (
 	_ "auth-service/api/handler/docs"
 	"auth-service/api/middleware"
 	"auth-service/config"
-	"fmt"
+	"log"
 	"log/slog"
 
 	"github.com/gin-gonic/gin"
@@ -24,12 +24,13 @@ type controllerImpl struct {
 }
 
 func NewController(router *gin.Engine) Controller {
-	return &controllerImpl{router: router, }
+	return &controllerImpl{router: router}
 }
 
 func (c *controllerImpl) StartServer(cfg config.Config) error {
 	if c.Port == "" {
-		c.Port = fmt.Sprintf("%s", cfg.HTTP_PORT)
+		log.Println("Server port is not set, using default port 8081")
+		c.Port = cfg.HTTP_PORT
 	}
 	return c.router.Run(c.Port)
 }

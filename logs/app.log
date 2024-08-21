@@ -80,6 +80,7 @@
 {"time":"2024-07-30T14:50:34.360104524+05:00","level":"INFO","msg":"Response sent","status":200}
 {"time":"2024-07-30T15:10:44.90155214+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
 {"time":"2024-07-30T15:10:44.962001067+05:00","level":"INFO","msg":"Response sent","status":200}
+<<<<<<< HEAD
 {"time":"2024-07-31T13:53:47.706514362+05:00","level":"INFO","msg":"Starting auth-service..."}
 {"time":"2024-07-31T13:53:47.732145252+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
 {"time":"2024-07-31T13:57:52.533784297+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/register"}
@@ -161,3 +162,39 @@
 {"time":"2024-08-01T00:56:40.621213844+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
 {"time":"2024-08-01T01:02:30.454739407+05:00","level":"INFO","msg":"Starting auth-service..."}
 {"time":"2024-08-01T01:02:30.473137875+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-08-01T09:52:16.102622634+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-08-01T09:52:16.121167211+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-08-01T09:53:05.005442818+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-08-01T09:53:05.180316076+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-01T10:02:49.382252566+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-08-01T10:02:49.549826083+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-01T15:04:04.785840869+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-08-01T15:04:04.814741043+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-08-01T15:05:15.884759665+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-08-01T15:05:16.059130055+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-01T15:14:27.273922019+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-08-01T15:14:27.439914329+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-01T15:18:26.316700298+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-08-01T15:18:26.475762425+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-01T15:24:20.717697295+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-08-01T15:24:20.874619206+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-07T10:45:38.598214547+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-08-07T10:45:38.59956345+05:00","level":"ERROR","msg":"Error connecting to database","error":"dial tcp: lookup postgres on 127.0.0.53:53: server misbehaving"}
+{"time":"2024-08-07T10:46:00.093169058+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-08-07T10:46:00.106267713+05:00","level":"ERROR","msg":"Error connecting to database","error":"pq: password authentication failed for user \"5432\""}
+{"time":"2024-08-07T10:46:22.420497354+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-08-07T10:46:22.445939652+05:00","level":"ERROR","msg":"Error connecting to database","error":"pq: unrecognized configuration parameter \"?sslmode\""}
+=======
+{"time":"2024-07-30T18:47:50.75700513+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-30T18:47:50.993827073+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-30T18:48:37.326719257+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/register"}
+{"time":"2024-07-30T18:48:37.38572729+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T18:49:02.242456346+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T18:49:02.297916998+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T18:55:16.777462396+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T18:55:16.834865017+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-30T19:00:21.377914306+05:00","level":"INFO","msg":"Starting auth-service..."}
+{"time":"2024-07-30T19:00:21.402634732+05:00","level":"INFO","msg":"server is running ","PORT":":50050"}
+{"time":"2024-07-30T19:00:26.966760827+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/login"}
+{"time":"2024-07-30T19:00:27.024877516+05:00","level":"INFO","msg":"Response sent","status":200}
+>>>>>>> 439c7ae0be5e230fddd1f80ad5bc8560b91dab8e

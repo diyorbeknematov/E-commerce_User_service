@@ -43,10 +43,10 @@ func Load() Config {
 	config.DB_PORT = cast.ToString(coalesce("DB_PORT", "5432"))
 	config.DB_NAME = cast.ToString(coalesce("DB_NAME", "ecommerce_auth_service"))
 	config.DB_USER = cast.ToString(coalesce("DB_USER", "postgres"))
-	config.DB_PASSWORD = cast.ToString(coalesce("DB_PASSWORD", "123321"))
+	config.DB_PASSWORD = cast.ToString(coalesce("DB_PASSWORD", "1702"))
 	config.DB_CASBIN_DRIVER = cast.ToString(coalesce("DB_CASBIN_DRIVER", "postgres"))
-	config.ACCESS_TOKEN = cast.ToString(coalesce("ACCESS_TOKEN", "key_is_really_easy"))
-	config.REFRESH_TOKEN = cast.ToString(coalesce("ACCESS_TOKEN", "key_is_not_hard"))
+	config.ACCESS_TOKEN = cast.ToString(coalesce("ACCESS_TOKEN", "my_secret_key"))
+	config.REFRESH_TOKEN = cast.ToString(coalesce("REFRESH_TOKEN", "my_secret_key"))
 
 	return config
 }

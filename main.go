@@ -19,6 +19,7 @@ func main() {
 
 	db, err := postgres.Connection()
 	if err != nil {
+		log.Println("Error connecting to database", "error", err.Error())
 		logger.Error("Error connecting to database", "error", err.Error())
 		log.Fatal(err)
 	}
@@ -28,7 +29,6 @@ func main() {
 
 	go func() {
 		server := server.NewServer(postgres.NewUserRepository(db), logger)
-
 		log.Printf("Starting gRPC server...%s", config.Load().GRPC_USER_PORT)
 		log.Fatal(server.StartServer())
 	}()
